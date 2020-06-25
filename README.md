@@ -28,6 +28,6 @@ The following application is a portfolio containing a number of my recent assign
 
 ## Deployed Links
   
-  * Link to the deployed URL:
+  * Link to the deployed URL: https://nifty-lumiere-ded15c.netlify.app/
 
   * Link to the GitHub repository: https://github.com/MG-cpu90/assignment20

@@ -9,3 +9,21 @@ h3 {
   margin: 10px;
   text-align: center;
 }
+
+.assignmentInfo {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-style: italic;
+  font-weight: initial;
+}
+
+.projectInfo {
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  font-style: italic;
+  font-weight: initial;
+}

@@ -48,10 +48,6 @@ function CardAssignment10(props) {
         <Example />
       </div>
       <div className="card-body">
-        <a href={assignments[3].url} target="_blank">
-          Deployed URL Link
-        </a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <a href={assignments[3].GitHub} target="_blank">
           GitHub Repository Link
         </a>

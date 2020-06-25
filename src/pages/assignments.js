@@ -258,6 +258,7 @@ class Assignments extends Component {
         <Container style={{ marginTop: 50, padding: 50 }}>
           <Row>
             <Col size="col-lg-8 md-12 s-12">
+              <h5 className="assignmentInfo">Click on the buttons to find out more information about each assignment!</h5>
               <Row size="row-cols-1 row-cols-md-2 pt-4 pb-4">
                 <div className="col mb-4">
                   <div className="card">
