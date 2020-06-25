@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Project #1: ReciPlease",
+      "description": "A website that allows users to search for detailed recipe instructions based on the ingredients they have in their pantry.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bulma CSS Framework",
+        "JavaScript",
+        "jQuery",
+        "Google Fonts",
+        "JSON",
+        "Spponacular API",
+        "Wikipedia API",
+        "AJAX",
+        "Git/Terminal",
+        "Slack",
+        "GitHub"
+      ],
+      "url": "https://mg-cpu90.github.io/project1/",
+      "GitHub": "https://github.com/MG-cpu90/project1",
+      "id": "project1",
+      "img": "../../img/project1-ssh.png"
+    },
+    {
+      "name": "Project #2: Thankly",
+      "description": "A gratitude journal that allows users struggling with poor mental health to cope with isolation during the COVID-19 health crisis.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Materialize CSS Framework",
+        "JavaScript",
+        "jQuery",
+        "Google Fonts",
+        "Font Awesome",
+        "JSON",
+        "Node",
+        "Express",
+        "Sequelize",
+        "ESLint",
+        "Moment",
+        "PDFKit",
+        "InvisionApp",
+        "moqups.com",
+        "W3Schools",
+        "Stack Overflow",
+        "Type.Fit API",
+        "Slow Country Comics",
+        "MySQL",
+        "Git/Terminal",
+        "Visual Studio Code",
+        "Zoom",
+        "Google Chrome",
+        "Slack",
+        "GitHub",
+        "Heroku",
+        "Adobe InDesign",
+        "JawsDB"
+
+      ],
+      "url": "https://thankly-test.herokuapp.com/",
+      "GitHub": "https://github.com/MG-cpu90/thankly",
+      "id": "project2",
+      "img": "../../img/project2-ssh.png"
+    }
+]

@@ -1,0 +1,11 @@
+form {
+  overflow: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#submitButton {
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
