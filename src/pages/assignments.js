@@ -222,7 +222,7 @@ class Assignments extends Component {
       },
       {
         "name": "Assignment #21: React Google Books Search",
-        "description": "A MERN application built using react, that allows users to search for books through google, add them to or fremove them from a reading list, and view information about them.",
+        "description": "A MERN application that allows users to search for books through google and add them to or remove them from a reading list.",
         "technologies": [
           "HTML",
           "CSS",
