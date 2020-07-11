@@ -9,7 +9,7 @@ const popover = (
   <Popover id="popover-basic">
     <Popover.Content>
     <ul className="list-group">
-      {assignments[6].technologies.map(item => (
+      {assignments[7].technologies.map(item => (
         <li className="list-group-item">
           {item}
         </li>
@@ -33,26 +33,26 @@ function CardAssignment13(props) {
       style={{ width: "30rem", height: "35rem" }}
     >
       <img
-        src={assignments[6].img}
+        src={assignments[7].img}
         className="card-img-top"
-        alt={assignments[6].id}
+        alt={assignments[7].id}
         width="650"
         height="200"
-        id={assignments[6].id}
+        id={assignments[7].id}
       ></img>
       <div className="card-body">
-        <h5 className="card-title">{assignments[6].name}</h5>
-        <p className="card-text">{assignments[6].description}</p>
+        <h5 className="card-title">{assignments[7].name}</h5>
+        <p className="card-text">{assignments[7].description}</p>
       </div>
       <div className="card-body">
         <Example />
       </div>
       <div className="card-body">
-        <a href={assignments[6].url} target="_blank">
+        <a href={assignments[7].url} target="_blank">
           Deployed URL Link
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href={assignments[6].GitHub} target="_blank">
+        <a href={assignments[7].GitHub} target="_blank">
           GitHub Repository Link
         </a>
       </div>

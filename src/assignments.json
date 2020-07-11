@@ -30,6 +30,22 @@
       "img": "../../img/assignment4-ssh.png"
     },
     {
+      "name": "Assignment #8: Portfolio",
+      "description": "A front-end application containing a portfolio of my assignments and projects.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap CSS Framework",
+        "Font Awesome",
+        "Google Fonts",
+        "GitHub"
+      ],
+      "url": "https://mg-cpu90.github.io/code-quiz/index.html",
+      "GitHub": "https://github.com/MG-cpu90/assignment8",
+      "id": "assignment8",
+      "img": "../../img/assignment8-ssh.png"
+    },
+    {
       "name": "Assignment #9: ReadMe Generator",
       "description": "A CLI application that prompts users to respond to some questions and subsequently generates a ReadMe file from a template which includes the information acquired from the users' responses.",
       "technologies": [
@@ -180,5 +196,31 @@
       "GitHub": "https://github.com/MG-cpu90/assignment19",
       "id": "assignment19",
       "img": "../../img/assignment19-ssh.png"
+    },
+    {
+      "name": "Assignment #21: React Google Books Search",
+      "description": "A MERN application built using react, that allows users to search for books through google, add them to or fremove them from a reading list, and view information about them.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Font Awesome",
+        "JSX",
+        "React",
+        "JSON",
+        "Web Manifest",
+        "Service Worker",
+        "Visual Studio Code",
+        "Google Chrome",
+        "Node.js",
+        "Git/Terminal",
+        "MongoDB",
+        "GitHub",
+        "Heroku"
+      ],
+      "url": "https://reactgoogle-booksearch.herokuapp.com/",
+      "GitHub": "https://github.com/MG-cpu90/assignment21",
+      "id": "assignment21",
+      "img": "../../img/assignment21-ssh.png"
     }
   ]
