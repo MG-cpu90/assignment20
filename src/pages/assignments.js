@@ -379,6 +379,7 @@ class Assignments extends Component {
                 <div className="col mb-4">
                   <div className="card">
                     <img
+                      // src="./assignment8-ssh.png"
                       src="../img/assignment8-ssh.png"
                       className="card-img-top"
                       alt="assignment8-screen_shot"
@@ -564,6 +565,7 @@ class Assignments extends Component {
                   <div className="card">
                     <img
                       src="../img/assignment21-ssh.png"
+                      // src="./assignment21-ssh.png"
                       className="card-img-top"
                       alt="assignment21-screen_shot"
                       width="200"
