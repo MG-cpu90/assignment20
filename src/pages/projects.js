@@ -72,6 +72,48 @@ class Projects extends Component {
         ],
         url: "https://thankly-test.herokuapp.com/",
         GitHub: "https://github.com/MG-cpu90/thankly"
+      },
+      {
+        name: "Project #3: Link-N-Park",
+        description: "A full-stack react application that allows users to find bike stations and parking spots.",
+        technologies: [
+          "HTML",
+          "CSS",
+          "Materialize CSS Framework",
+          "JavaScript",
+          "jQuery",
+          "Google Fonts",
+          "Font Awesome",
+          "JSON",
+          "React",
+          "JSX",
+          "Node",
+          "Express",
+          "Sequelize",
+          "ESLint",
+          "Moment",
+          "PDFKit",
+          "InvisionApp",
+          "moqups.com",
+          "W3Schools",
+          "Stack Overflow",
+          "Type.Fit API",
+          "Slow Country Comics",
+          "MySQL",
+          "Git/Terminal",
+          "Visual Studio Code",
+          "Zoom",
+          "Google Chrome",
+          "Slack",
+          "GitHub",
+          "Heroku",
+          "Adobe InDesign",
+          "JawsDB",
+          "Web Manifest",
+          "Service Worker"
+        ],
+        url: "https://link-n-park.herokuapp.com/",
+        GitHub: "https://github.com/joel-clifford-bootcamp/project3"
       }
     ],
     cards: [
@@ -182,6 +224,30 @@ class Projects extends Component {
                             Project 2
                           </h5>
                           <p className="text-center">Thankly: Online Gratitude Journal</p>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col mb-6">
+                    <div className="card">
+                      <img
+                        src="../img/project3-ssh.png"
+                        className="card-img-top"
+                        alt="project3-screen_shot"
+                        width="200"
+                        height="200"
+                      ></img>
+                      <div className="card-body justify-content-center">
+                        <a
+                          className="nav-link"
+                          href="#"
+                          id="project3link"
+                          onClick={this.handleProjectRender}
+                        >
+                          <h5 className="card-title btn-secondary text-white text-center p-2" id="project3">
+                            Project 3
+                          </h5>
+                          <p className="text-center">Link-N-Park</p>
                         </a>
                       </div>
                     </div>
