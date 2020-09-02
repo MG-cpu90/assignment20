@@ -15,7 +15,7 @@ function Footer() {
         <li className="nav-item">
           <i className="fab fa-linkedin icon"></i>{" "}
           <a
-            href="https://www.linkedin.com/in/massimo-guida-d-m-a-he-him-his-23b13a30/"
+            href="https://www.linkedin.com/in/massimoguida/"
             target="_blank"
           >
             LinkedIn
