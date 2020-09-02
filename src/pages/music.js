@@ -10,12 +10,13 @@ import Col from "../components/Col";
 import Card from "../components/Card";
 import CardBio from "../components/CardBio";
 import CardBio2 from "../components/CardBio2";
+import CardBioMusic from "../components/CardBioMusic";
 import BioContainer from "../components/BioContainer";
 import "./style.css";
 
 import Button from "../components/Button";
 
-function Home() {
+function Music() {
   return (
     <div backgroundImage={backgroundPic} style={{ backgroundColor: "black" }}>
       <div
@@ -34,19 +35,19 @@ function Home() {
       <Container style={{ marginTop: 50, padding: 50 }}>
         <Row>
           <Col size="md-12 s-12">
-            <h3>About me</h3>
-            <CardBio
+            <h3>Music</h3>
+            {/* <CardBio
               className="bg-light"
               style={{ width: "20px", marginTop: 50, padding: 50 }}
-            ></CardBio>
+            ></CardBio> */}
           </Col>
         </Row>
         <Row>
           <Col size="md-12 s-12">
-            <CardBio2 className="bg-light"></CardBio2>
+            <CardBioMusic className="bg-light"></CardBioMusic>
           </Col>
         </Row>
-        {/* <Row>
+        <Row>
           <Col size="md-12" style={{ width: "100%" }}>
             <div>
               <div className="row padding-30 margin-30 youtube-container">
@@ -64,7 +65,7 @@ function Home() {
               </div>
             </div>
           </Col>
-        </Row> */}
+        </Row>
         <Row>
           <Col size="md-12" style={{ width: "100%" }}>
             <div></div>
@@ -75,4 +76,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Music;

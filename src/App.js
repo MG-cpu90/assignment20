@@ -6,6 +6,7 @@ import "./App.css";
 import Home from "./pages/home";
 import Contact from "./pages/contact";
 import Assignments from "./pages/assignments";
+import Music from "./pages/music";
 import Projects from "./pages/projects";
 import Hero from "./components/Table";
 import Wrapper from "./components/Wrapper";
@@ -257,6 +258,7 @@ render() {
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/projects" component={Projects} />
           <Route exact path="/assignments" component={Assignments} />
+          <Route exact path="/music" component={Music} />
         </Wrapper>
         <Footer />
       </div>

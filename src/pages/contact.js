@@ -57,7 +57,10 @@ class Contact extends Component {
         </div>
         <Container style={{ minHeight: "50%" }}>
           <Row>
-            <Col size="md-12" style={{ width: "100%", marginBottom: 10, padding: 10}}>
+            <Col
+              size="md-12"
+              style={{ width: "100%", marginBottom: 10, padding: 10 }}
+            >
               <div className="contact-div">
                 <div className="text-center padding-2 margin-2">
                   <h3 className="contactHeading">Contact Me</h3>
@@ -79,26 +82,36 @@ class Contact extends Component {
                         links in the footer at the bottom of each page!
                       </li>
                       <li className="list-group-item">
+                        If you prefer, my email address is:{" "}
+                        <a
+                          href="mailto:massimo@massimoguida.com"
+                          target="_blank"
+                        >
+                          massimo@massimoguida.com
+                        </a>
+                      </li>
+
+                      <li className="list-group-item">
                         Please note that the form is currently undergoing
                         maintenance!
                       </li>
                     </ul>
                   </div>
                 </div>
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col size="md-12" style={{ width: "100%" }}>
+              <div className="card-container bg-light padding-2 margin-2">
+                <div className="form-container padding-2">
+                  <Form
+                    handleFormSubmit={this.handleFormSubmit}
+                    handleInputChange={this.handleInputChange}
+                    name={this.state.name}
+                  />
                 </div>
-              </Col>
-            </Row>
-            <Row>
-              <Col size="md-12" style={{ width: "100%" }}>
-                <div className="card-container bg-light padding-2 margin-2">
-                  <div className="form-container padding-2">
-                    <Form
-                      handleFormSubmit={this.handleFormSubmit}
-                      handleInputChange={this.handleInputChange}
-                      name={this.state.name}
-                    />
-                  </div>
-                </div>
+              </div>
             </Col>
           </Row>
         </Container>

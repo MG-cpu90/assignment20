@@ -47,6 +47,14 @@ function Navbar() {
               Contact
             </Link>
           </li>
+          <li className="nav-item">
+            <Link
+              to="/music"
+              className={window.location.pathname === "/music" ? "nav-link active" : "nav-link"}
+            >
+              Music
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

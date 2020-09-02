@@ -9,6 +9,7 @@ import Row from "../components/Row";
 import Col from "../components/Col";
 import CardProject1 from "../components/CardProject1";
 import CardProject2 from "../components/CardProject2";
+import CardProject3 from "../components/CardProject3";
 
 class Projects extends Component {
   state = {
@@ -152,6 +153,8 @@ class Projects extends Component {
       return <CardProject1 />;
     } else if (this.state.currentCard === "project2") {
       return <CardProject2 />;
+    } else if (this.state.currentCard === "project3") {
+      return <CardProject3 />;
     }
     else {
       return null;

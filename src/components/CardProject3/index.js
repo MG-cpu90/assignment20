@@ -26,7 +26,7 @@ const Example = () => (
   </OverlayTrigger>
 );
 
-function CardProjec2(props) {
+function CardProjec3(props) {
 
   return (
     <div
@@ -61,4 +61,4 @@ function CardProjec2(props) {
   );
 }
 
-export default CardProjec2;
+export default CardProjec3;
